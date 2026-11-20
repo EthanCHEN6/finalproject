@@ -1,0 +1,16 @@
+^finalproject\.Rproj$
+^\.Rproj\.user$
+^\.git$
+^\.github$
+^\.gitignore$
+^docs$
+^_pkgdown\.yml$
+^pkgdown$
+^LICENSE\.md$
+^vignettes/instructions\.qmd$
+^vignettes/stubs\.qmd$
+^vignettes/showpages[12]\.jpg$
+^vignettes/.*_files$
+^vignettes/\.quarto$
+^.*\.Rcheck$
+^.*\.tar\.gz$

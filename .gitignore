@@ -1,0 +1,11 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.quarto/
+*.Rcheck/
+*.tar.gz
+vignettes/*.html
+vignettes/*_files/
+vignettes/figure/
+vignettes/*_cache/

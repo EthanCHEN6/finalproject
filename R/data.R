@@ -6,7 +6,7 @@
 "cdcmurd"
 
 #' data from CDC on rates of mortality by firearm by state by year
-#' @note This data frame describes murder rates over time in the 50 states and D.C. 
+#' @note This data frame describes firearm-related mortality rates over time in the 50 states and D.C.
 #' The dataset is available at [https://www.cdc.gov/nchs/state-stats/deaths/firearms.html](https://www.cdc.gov/nchs/state-stats/deaths/firearms.html)
 #' @format data.frame
 #' @docType data
@@ -23,7 +23,7 @@
 #' @note The source is `https://data.cdc.gov/api/v3/views/5xkq-dg7x/query.json`
 #' Run the example to see metadata labels.
 #' @examples
-#' data("waterborne", package="bst260project")
+#' data("waterborne", package="finalproject")
 #' unique(unlist(lapply(waterborne, names)))
 #' waterborne[[1]]
 "waterborne"

@@ -1,4 +1,20 @@
-url: https://github.com/vjcitn/bst260project-template
+url: https://EthanCHEN6.github.io/finalproject/
 template:
   bootstrap: 5
-
+navbar:
+  structure:
+    left: [proposal, articles, reference]
+    right: [search, github]
+  components:
+    proposal:
+      text: Proposal
+      href: articles/proposal.html
+articles:
+- title: Project proposal
+  contents:
+  - proposal
+- title: Course guidance
+  desc: Original instructions and suggestions by Vincent Carey.
+  contents:
+  - instructions
+  - stubs

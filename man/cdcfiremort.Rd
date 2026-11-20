@@ -14,7 +14,7 @@ data(cdcfiremort)
 data from CDC on rates of mortality by firearm by state by year
 }
 \note{
-This data frame describes murder rates over time in the 50 states and D.C.
+This data frame describes firearm-related mortality rates over time in the 50 states and D.C.
 The dataset is available at \url{https://www.cdc.gov/nchs/state-stats/deaths/firearms.html}
 }
 \keyword{datasets}

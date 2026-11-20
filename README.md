@@ -1,12 +1,37 @@
-# bst260project-template
+# finalproject
 
-Instructions and template for projects for 2026 HSPH BST260
+Yitian(Ethan) Chen · BST260 · Fall 2026
 
-Your project will be a working GitHub pages site that presents your interpretation
-of features of public health datasets.
+For my final project, I plan to study BMI and systolic blood pressure in
+NHANES and compare foodborne and waterborne outbreak sizes in CDC data.
+The proposal describes the questions, datasets, and analyses I plan to use.
 
-Please see [instructions](https://vjcitn.github.io/bst260project-template/articles/instructions.html) to set up the infrastructure for your project and to learn about available datasets
+- [Proposal](https://EthanCHEN6.github.io/finalproject/articles/proposal.html)
+- [Project website](https://EthanCHEN6.github.io/finalproject/)
 
-Please see [project suggestion text](https://vjcitn.github.io/bst260project-template/articles/stubs.html) for
-some suggestions of how you might proceed with project work on selected datasets.  More content will be
-added to this page in the near future.
+## Install
+
+With R 4.5.0 or later:
+
+```r
+devtools::install_github("EthanCHEN6/finalproject")
+data("waterborne", package = "finalproject")
+```
+
+## Build the website
+
+Install Quarto and the R packages `pkgdown`, `quarto`, `knitr`, and `rmarkdown`.
+Open `finalproject.Rproj` and run:
+
+```r
+pkgdown::build_site()
+```
+
+GitHub Pages publishes the `docs/` folder on `main`.
+
+## Course template
+
+This repository is forked from
+[Vincent Carey's BST260 template](https://github.com/vjcitn/bst260project-template).
+It retains the course datasets, instructions, and project suggestions.
+My proposal is in `vignettes/proposal.qmd`.

@@ -5,14 +5,14 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>project code and narrative • bst260project</title>
+<title>BST260 Final Project • finalproject</title>
 <script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<link href="deps/bootstrap-5.3.8/bootstrap.min.css" rel="stylesheet">
-<script src="deps/bootstrap-5.3.8/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
+<link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
+<script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="project code and narrative">
-<meta name="description" content="provide text on what your project emphasizes and accomplishes in three or more complete sentences.">
-<meta property="og:description" content="provide text on what your project emphasizes and accomplishes in three or more complete sentences.">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="BST260 Final Project">
+<meta name="description" content="A proposal for an individual BST260 final project. The planned analyses concern BMI and blood pressure in NHANES and foodborne and waterborne outbreak sizes in CDC data. Includes the course datasets and a pkgdown website.">
+<meta property="og:description" content="A proposal for an individual BST260 final project. The planned analyses concern BMI and blood pressure in NHANES and foodborne and waterborne outbreak sizes in CDC data. Includes the course datasets and a pkgdown website.">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -20,9 +20,9 @@
 
     <nav class="navbar navbar-expand-lg fixed-top bg-light" data-bs-theme="light" aria-label="Site navigation"><div class="container">
 
-    <a class="navbar-brand me-2" href="index.html">bst260project</a>
+    <a class="navbar-brand me-2" href="index.html">finalproject</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.3</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,19 +31,15 @@
 
     <div id="navbar" class="collapse navbar-collapse ms-3">
       <ul class="navbar-nav me-auto">
+<li class="nav-item"><a class="nav-link" href="articles/proposal.html">Proposal</a></li>
+<li class="nav-item"><a class="nav-link" href="articles/index.html">Articles</a></li>
 <li class="nav-item"><a class="nav-link" href="reference/index.html">Reference</a></li>
-<li class="nav-item dropdown">
-  <button class="nav-link dropdown-toggle" type="button" id="dropdown-articles" data-bs-toggle="dropdown" aria-expanded="false" aria-haspopup="true">Articles</button>
-  <ul class="dropdown-menu" aria-labelledby="dropdown-articles">
-<li><a class="dropdown-item" href="articles/instructions.html">Instructions for BST260 projects, 2026</a></li>
-    <li><a class="dropdown-item" href="articles/stubs.html">Stubs for BST260 projects, 2026</a></li>
-  </ul>
-</li>
       </ul>
 <ul class="navbar-nav">
 <li class="nav-item"><form class="form-inline" role="search">
  <input class="form-control" type="search" name="search-input" id="search-input" autocomplete="off" aria-label="Search site" placeholder="Search for" data-search-index="search.json">
 </form></li>
+<li class="nav-item"><a class="external-link nav-link" href="https://github.com/EthanCHEN6/finalproject/" aria-label="GitHub"><span class="fa fab fa-github fa-lg"></span></a></li>
       </ul>
 </div>
 
@@ -52,25 +48,49 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="bst260project-template">bst260project-template<a class="anchor" aria-label="anchor" href="#bst260project-template"></a>
+<div class="page-header"><h1 id="finalproject">finalproject<a class="anchor" aria-label="anchor" href="#finalproject"></a>
 </h1></div>
-<p>Instructions and template for projects for 2026 HSPH BST260</p>
-<p>Your project will be a working GitHub pages site that presents your interpretation of features of public health datasets.</p>
-<p>Please see <a href="https://vjcitn.github.io/bst260project-template/articles/instructions.html" class="external-link">instructions</a> to set up the infrastructure for your project and to learn about available datasets</p>
-<p>Please see <a href="https://vjcitn.github.io/bst260project-template/articles/stubs.html" class="external-link">project suggestion text</a> for some suggestions of how you might proceed with project work on selected datasets. More content will be added to this page in the near future.</p>
+<p>Yitian(Ethan) Chen · BST260 · Fall 2026</p>
+<p>For my final project, I plan to study BMI and systolic blood pressure in NHANES and compare foodborne and waterborne outbreak sizes in CDC data. The proposal describes the questions, datasets, and analyses I plan to use.</p>
+<ul>
+<li><a href="https://EthanCHEN6.github.io/finalproject/articles/proposal.html">Proposal</a></li>
+<li><a href="https://EthanCHEN6.github.io/finalproject/">Project website</a></li>
+</ul>
+<div class="section level2">
+<h2 id="install">Install<a class="anchor" aria-label="anchor" href="#install"></a>
+</h2>
+<p>With R 4.5.0 or later:</p>
+<div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">devtools</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"EthanCHEN6/finalproject"</span><span class="op">)</span></span>
+<span><span class="fu"><a href="https://rdrr.io/r/utils/data.html" class="external-link">data</a></span><span class="op">(</span><span class="st">"waterborne"</span>, package <span class="op">=</span> <span class="st">"finalproject"</span><span class="op">)</span></span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="build-the-website">Build the website<a class="anchor" aria-label="anchor" href="#build-the-website"></a>
+</h2>
+<p>Install Quarto and the R packages <code>pkgdown</code>, <code>quarto</code>, <code>knitr</code>, and <code>rmarkdown</code>. Open <code>finalproject.Rproj</code> and run:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span><span class="fu">pkgdown</span><span class="fu">::</span><span class="fu"><a href="https://pkgdown.r-lib.org/reference/build_site.html" class="external-link">build_site</a></span><span class="op">(</span><span class="op">)</span></span></code></pre></div>
+<p>GitHub Pages publishes the <code>docs/</code> folder on <code>main</code>.</p>
+</div>
+<div class="section level2">
+<h2 id="course-template">Course template<a class="anchor" aria-label="anchor" href="#course-template"></a>
+</h2>
+<p>This repository is forked from <a href="https://github.com/vjcitn/bst260project-template" class="external-link">Vincent Carey’s BST260 template</a>. It retains the course datasets, instructions, and project suggestions. My proposal is in <code>vignettes/proposal.qmd</code>.</p>
+</div>
 </div>
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
-<li><a href="NA/NA/NA/">Browse source code</a></li>
-<li><a href="https://github.com/youreponame/issues" class="external-link">Report a bug</a></li>
+<li><a href="https://github.com/EthanCHEN6/finalproject/" class="external-link">Browse source code</a></li>
+<li><a href="https://github.com/EthanCHEN6/finalproject/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>
 
 <div class="license">
 <h2 data-toc-skip>License</h2>
 <ul class="list-unstyled">
-<li><a href="https://www.r-project.org/Licenses/Artistic-2.0" class="external-link">Artistic-2.0</a></li>
+<li><a href="LICENSE.html">Full license</a></li>
+<li><small><a href="https://opensource.org/licenses/mit-license.php" class="external-link">MIT</a> + file <a href="LICENSE-text.html">LICENSE</a></small></li>
 </ul>
 </div>
 
@@ -78,14 +98,14 @@
 <div class="citation">
 <h2 data-toc-skip>Citation</h2>
 <ul class="list-unstyled">
-<li><a href="authors.html#citation">Citing bst260project</a></li>
+<li><a href="authors.html#citation">Citing finalproject</a></li>
 </ul>
 </div>
 
 <div class="developers">
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
-<li>yourfirstname lastname <br><small class="roles"> Author, maintainer </small> <a href="https://orcid.org/0000-0002-1825-0097" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a>  </li>
+<li>Yitian(Ethan) Chen <br><small class="roles"> Author, maintainer </small>   </li>
 </ul>
 </div>
 
@@ -96,7 +116,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by yourfirstname lastname.</p>
+  <p>Developed by Yitian(Ethan) Chen.</p>
 </div>
 
 <div class="pkgdown-footer-right">
