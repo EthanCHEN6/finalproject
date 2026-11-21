@@ -166,6 +166,7 @@ Pages.
 
 For this project, I chose to study BMI and blood pressure in NHANES and
 compare foodborne and waterborne outbreak sizes. I approved the proposed
-analyses and used ChatGPT/Codex for help with the unfinished coding and
-technical setup. It also helped explain the methods, check results, and
-draft and revise the proposal.
+analyses and used ChatGPT to review my final project proposal. It helped
+me to point out anything in the research questions or analysis plans
+that needs correcting. Also help me tidy up the R code and improve the
+grammar after I revise the content.
